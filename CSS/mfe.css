@@ -385,13 +385,13 @@ div[class^="pm-from-"] {
   outline: 0 none;
 }
 #chat .emote .text {
-  font-style: normal;
-  font-weight: bold;
-  color: #00B2FF;
+    font-style: normal;
+    font-weight: bold;
+    color: #00B2FF;
 }
 #chat .emote {
-  border-left: rgba(55, 0, 255, 1) 3px solid !important;
-  background-color: rgba(0, 101, 255, 0.19) !important;
+    border-left: rgb(0, 19, 255) 3px solid !important;
+    background-color: rgba(76, 93, 119, 0.22) !important;
 }
 #chat .moderation, 
 #chat .moderation .from {

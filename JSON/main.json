@@ -75,5 +75,6 @@
 			"url" : "https://rawgit.com/LuizEdP/OrigemWoot/master/JSON/Lang/sklang.json",
 			"name" : "Slovenština"
 		}
-	}
+	},
+	"customRooms": {}
 }

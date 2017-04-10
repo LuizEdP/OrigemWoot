@@ -15,13 +15,11 @@
 </body>
 <script>
 	var xmlhttp = new XMLHttpRequest(),
-		url = "https://rawgit.com/LuizEdP/OrigemWoot/master/JSON/emotes.js";
+		url = "https://rawgit.com/LuizEdP/OrigemWoot/master/JSON/emotes.json";
 
 	xmlhttp.onreadystatechange = function() {
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
-			eval(xmlhttp.responseText);
-			createTable(window.ow_emotes);
-			delete window.ow_emotes;
+			createTable(JSON.parse(xmlhttp.responseText));
 		}
 	};
 	xmlhttp.open("GET", url, true);
